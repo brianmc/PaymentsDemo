@@ -10,21 +10,23 @@ namespace PaymentsDemo.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
+            ViewBag.Message = "Use this site to test out Payment Provider integrations and view sample code as you navigate the payment pipeline.";
 
             return View();
         }
 
-        public ActionResult About()
+
+        public ActionResult Providers()
         {
-            ViewBag.Message = "Your app description page.";
+            ViewBag.Message = "  We're currently working on our first integration, check back to see the links below light up and also to explore additional payment providers.";
 
             return View();
         }
+
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "";
 
             return View();
         }
