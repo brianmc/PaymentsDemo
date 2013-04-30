@@ -5,8 +5,16 @@
         <title>@ViewBag.Title</title>
         <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
         <meta name="viewport" content="width=device-width" />
+        <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+
+<!-- jQuery is used only for this example; it isn't required to use Stripe -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+ 
+
+
         @Styles.Render("~/Content/css")
         @Scripts.Render("~/bundles/modernizr")
+
     </head>
     <body>
         <header>
