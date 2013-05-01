@@ -32,6 +32,8 @@
   <button type="submit">Submit Payment</button>
 </form>
 
+@section ScriptTag
+{
 <script type="text/javascript">
     // This identifies your website in the createToken call below
     Stripe.setPublishableKey('pk_test_2UdvucLfvB8dLL4xbujlldaL');
@@ -67,3 +69,4 @@
     });
 
 </script>
+    }

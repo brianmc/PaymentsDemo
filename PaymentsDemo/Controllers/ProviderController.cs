@@ -29,9 +29,7 @@ namespace PaymentsDemo.Controllers
             // Post charge data
             restClient.DefaultRequestHeaders.Add("Authorization", "Basic "+api_key);
 
-           var result = await restClient.PostAsync("https://api.stripe.com/v1/charges", chargeData);
-
- 
+           var result = await restClient.PostAsync("https://api.stripe.com/v1/charges", chargeData); 
 
             return View();
         }
